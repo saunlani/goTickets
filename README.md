@@ -6,7 +6,7 @@ Fullstack web application which uses **Node.js**, **NestJS**, **TypeScript**, **
 
 2. **Navigate to the project directory**: Once cloned, navigate to the project directory using the cd command.
 
-3. **Create a .env file in `frontend`**: Use the .env.example file as a template to create a .env file in the `frontend` directory. This file will be used to store environment variables for the frontend application.
+3. **Create a .env file in `frontend`**: Use the `.env.example` file as a template to create a .env file in the `frontend` directory. This file will be used to store environment variables for the frontend application.
 
 3. **Run Docker Compose**: Execute the `docker-compose up` command in the project directory. Docker will take care of installing all necessary dependencies and get the application up and running. It also enables hot module replacement for a smoother development experience.
 
