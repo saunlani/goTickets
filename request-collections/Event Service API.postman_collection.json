@@ -1,0 +1,90 @@
+{
+	"info": {
+		"_postman_id": "ed7c0efe-64f5-4124-87a1-2f017f229814",
+		"name": "Event Service API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create Event with 20 Tickets",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"Winter Festival\",\n    \"date\": \"2022-09-10T00:00:00.000Z\",\n    \"city\": \"Berlin\",\n    \"tickets\": [\n        {\n            \"barcode\": \"N0O1P2Q3\",\n            \"firstName\": \"Aiden\",\n            \"lastName\": \"Jung\"\n        },\n        {\n            \"barcode\": \"R4S5T6U7\",\n            \"firstName\": \"Victoria\",\n            \"lastName\": \"Roth\"\n        },\n        {\n            \"barcode\": \"V8W9X0Y1\",\n            \"firstName\": \"Lucas\",\n            \"lastName\": \"Döring\"\n        },\n        {\n            \"barcode\": \"Z2A3B4C5\",\n            \"firstName\": \"Charlie\",\n            \"lastName\": \"Heller\"\n        },\n        {\n            \"barcode\": \"D6E7F8G9\",\n            \"firstName\": \"Eleanor\",\n            \"lastName\": \"Roberts\"\n        },\n        {\n            \"barcode\": \"H0I1J2K3\",\n            \"firstName\": \"Henry\",\n            \"lastName\": \"Mitchell\"\n        },\n        {\n            \"barcode\": \"L4M5N6O7\",\n            \"firstName\": \"Luna\",\n            \"lastName\": \"Lee\"\n        },\n        {\n            \"barcode\": \"P8Q9R0S1\",\n            \"firstName\": \"James\",\n            \"lastName\": \"Götz\"\n        },\n        {\n            \"barcode\": \"T2U3V4W5\",\n            \"firstName\": \"Aria\",\n            \"lastName\": \"Weber\"\n        },\n        {\n            \"barcode\": \"X6Y7Z8A9\",\n            \"firstName\": \"Oliver\",\n            \"lastName\": \"Johnson\"\n        },\n        {\n            \"barcode\": \"B0C1D2E3\",\n            \"firstName\": \"Lily\",\n            \"lastName\": \"Brown\"\n        },\n        {\n            \"barcode\": \"F4G5H6I7\",\n            \"firstName\": \"Jack\",\n            \"lastName\": \"Davis\"\n        },\n        {\n            \"barcode\": \"J8K9L0M1\",\n            \"firstName\": \"Evelyn\",\n            \"lastName\": \"Miller\"\n        },\n        {\n            \"barcode\": \"N2O3P4Q5\",\n            \"firstName\": \"Wyatt\",\n            \"lastName\": \"Wilson\"\n        },\n        {\n            \"barcode\": \"R6S7T8U9\",\n            \"firstName\": \"Harper\",\n            \"lastName\": \"Garcia\"\n        },\n        {\n            \"barcode\": \"V0W1X2Y3\",\n            \"firstName\": \"Ryan\",\n            \"lastName\": \"Martinez\"\n        },\n        {\n            \"barcode\": \"Z4A5B6C7\",\n            \"firstName\": \"Leo\",\n            \"lastName\": \"Anderson\"\n        },\n        {\n            \"barcode\": \"D8E9F0G1\",\n            \"firstName\": \"Lucy\",\n            \"lastName\": \"Taylor\"\n        },\n        {\n            \"barcode\": \"H2I3J4K5\",\n            \"firstName\": \"Levi\",\n            \"lastName\": \"Clark\"\n        },\n        {\n            \"barcode\": \"L6M7N8O9\",\n            \"firstName\": \"Grace\",\n            \"lastName\": \"Allen\"\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5001/events",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"events"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Event with 40 Tickets",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"Summer Festival\",\n    \"date\": \"2023-08-01T00:00:00.000Z\",\n    \"city\": \"New York\",\n    \"tickets\": [\n        {\n            \"barcode\": \"A1B2C3D4\",\n            \"firstName\": \"John\",\n            \"lastName\": \"Doe\"\n        },\n        {\n            \"barcode\": \"E5F6G7H8\",\n            \"firstName\": \"Alice\",\n            \"lastName\": \"Smith\"\n        },\n        {\n            \"barcode\": \"I9J0K1L2\",\n            \"firstName\": \"Michael\",\n            \"lastName\": \"Johnson\"\n        },\n        {\n            \"barcode\": \"M3N4O5P6\",\n            \"firstName\": \"Emily\",\n            \"lastName\": \"Brown\"\n        },\n        {\n            \"barcode\": \"Q7R8S9T0\",\n            \"firstName\": \"William\",\n            \"lastName\": \"Davis\"\n        },\n        {\n            \"barcode\": \"U1V2W3X4\",\n            \"firstName\": \"Olivia\",\n            \"lastName\": \"Miller\"\n        },\n        {\n            \"barcode\": \"Y5Z6A7B8\",\n            \"firstName\": \"James\",\n            \"lastName\": \"Wilson\"\n        },\n        {\n            \"barcode\": \"C9D0E1F2\",\n            \"firstName\": \"Sophia\",\n            \"lastName\": \"Garcia\"\n        },\n        {\n            \"barcode\": \"G3H4I5J6\",\n            \"firstName\": \"Robert\",\n            \"lastName\": \"Martinez\"\n        },\n        {\n            \"barcode\": \"K7L8M9N0\",\n            \"firstName\": \"Emma\",\n            \"lastName\": \"Anderson\"\n        },\n        {\n            \"barcode\": \"O1P2Q3R4\",\n            \"firstName\": \"Alexander\",\n            \"lastName\": \"Taylor\"\n        },\n        {\n            \"barcode\": \"S5T6U7V8\",\n            \"firstName\": \"Ava\",\n            \"lastName\": \"Clark\"\n        },\n        {\n            \"barcode\": \"W9X0Y1Z2\",\n            \"firstName\": \"David\",\n            \"lastName\": \"Allen\"\n        },\n        {\n            \"barcode\": \"A2B3C4D5\",\n            \"firstName\": \"Isabella\",\n            \"lastName\": \"Perez\"\n        },\n        {\n            \"barcode\": \"E6F7G8H9\",\n            \"firstName\": \"Joseph\",\n            \"lastName\": \"Hernandez\"\n        },\n        {\n            \"barcode\": \"I0J1K2L3\",\n            \"firstName\": \"Sophie\",\n            \"lastName\": \"Sanchez\"\n        },\n        {\n            \"barcode\": \"M4N5O6P7\",\n            \"firstName\": \"Daniel\",\n            \"lastName\": \"Rivera\"\n        },\n        {\n            \"barcode\": \"Q8R9S0T1\",\n            \"firstName\": \"Mia\",\n            \"lastName\": \"Roberts\"\n        },\n        {\n            \"barcode\": \"U2V3W4X5\",\n            \"firstName\": \"Matthew\",\n            \"lastName\": \"Mitchell\"\n        },\n        {\n            \"barcode\": \"Y6Z7A8B9\",\n            \"firstName\": \"Charlotte\",\n            \"lastName\": \"Lee\"\n        },\n        {\n            \"barcode\": \"B1C2D3E4\",\n            \"firstName\": \"Liam\",\n            \"lastName\": \"Götz\"\n        },\n        {\n            \"barcode\": \"F5G6H7I8\",\n            \"firstName\": \"Emma\",\n            \"lastName\": \"Weber\"\n        },\n        {\n            \"barcode\": \"J9K0L1M2\",\n            \"firstName\": \"Noah\",\n            \"lastName\": \"Fischer\"\n        },\n        {\n            \"barcode\": \"N3O4P5Q6\",\n            \"firstName\": \"Olivia\",\n            \"lastName\": \"Becker\"\n        },\n        {\n            \"barcode\": \"R7S8T9U0\",\n            \"firstName\": \"Elijah\",\n            \"lastName\": \"Schulz\"\n        },\n        {\n            \"barcode\": \"V1W2X3Y4\",\n            \"firstName\": \"Ava\",\n            \"lastName\": \"Koch\"\n        },\n        {\n            \"barcode\": \"Z5A6B7C8\",\n            \"firstName\": \"Oliver\",\n            \"lastName\": \"Richter\"\n        },\n        {\n            \"barcode\": \"D9E0F1G2\",\n            \"firstName\": \"Sophia\",\n            \"lastName\": \"Meyer\"\n        },\n        {\n            \"barcode\": \"H3I4J5K6\",\n            \"firstName\": \"Lucas\",\n            \"lastName\": \"Schneider\"\n        },\n        {\n            \"barcode\": \"L7M8N9O0\",\n            \"firstName\": \"Isabella\",\n            \"lastName\": \"Wagner\"\n        },\n        {\n            \"barcode\": \"P1Q2R3S4\",\n            \"firstName\": \"Mia\",\n            \"lastName\": \"Hoffmann\"\n        },\n        {\n            \"barcode\": \"T5U6V7W8\",\n            \"firstName\": \"Aiden\",\n            \"lastName\": \"Schmitt\"\n        },\n        {\n            \"barcode\": \"X9Y0Z1A2\",\n            \"firstName\": \"Amelia\",\n            \"lastName\": \"Werner\"\n        },\n        {\n            \"barcode\": \"B3C4D5E6\",\n            \"firstName\": \"Carter\",\n            \"lastName\": \"Lange\"\n        },\n        {\n            \"barcode\": \"F7G8H9I0\",\n            \"firstName\": \"Ella\",\n            \"lastName\": \"Krüger\"\n        },\n        {\n            \"barcode\": \"J1K2L3M4\",\n            \"firstName\": \"Mason\",\n            \"lastName\": \"Frank\"\n        },\n        {\n            \"barcode\": \"N5O6P7Q8\",\n            \"firstName\": \"Layla\",\n            \"lastName\": \"Kaiser\"\n        },\n        {\n            \"barcode\": \"R9S0T1U2\",\n            \"firstName\": \"Jacob\",\n            \"lastName\": \"Günther\"\n        },\n        {\n            \"barcode\": \"V3W4X5Y6\",\n            \"firstName\": \"Scarlett\",\n            \"lastName\": \"Neumann\"\n        },\n        {\n            \"barcode\": \"Z7A8B9C0\",\n            \"firstName\": \"Mateo\",\n            \"lastName\": \"Schultz\"\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5001/events",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"events"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Events",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5001/events?limit=10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"events"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
